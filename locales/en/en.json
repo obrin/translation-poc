@@ -1,8 +1,0 @@
-{
-  "format":{
-    "date":"DD MMMM YYYY",
-    "dateTime":"DD MMMM YYYY hh:mm",
-    "dateShort":"DD MMM YY",
-    "price":"{currency} {price}"
-  }
-}
