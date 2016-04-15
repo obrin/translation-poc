@@ -26,3 +26,7 @@ body {
     position: relative;
     top: 250px;
 }
+
+.content span {
+    display: block
+}
