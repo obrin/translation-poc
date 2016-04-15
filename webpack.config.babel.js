@@ -10,7 +10,7 @@ export default {
   output: {
     path: path.resolve(__dirname, './build/app'),
     filename: '[name].js',
-    publicPath: 'http://dev.iflix.com:8080/app/'
+    publicPath: '/app/'
   },
   module: {
     loaders: [
@@ -32,6 +32,9 @@ export default {
   ],
   devServer: {
     contentBase: path.join(__dirname, '/build/app'),
+    historyApiFallback: {
+      index: '/app/index.html'
+    },
     port: 8080
   }
 };
